@@ -1,4 +1,5 @@
-import model.Example
+import model.AlfaRomeo;
+import model.Example;
 
 public class VehicleNoises {
 	
@@ -8,6 +9,9 @@ public class VehicleNoises {
 	public static void main(String[] args) {
 		Example example = new Example();
 		System.out.println(example.makeNoise());
+		
+		AlfaRomeo alfa = new AlfaRomeo();
+		System.out.println(alfa.makeNoise());
 	}
 
 }
